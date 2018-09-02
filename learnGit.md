@@ -8,6 +8,7 @@ with "-w" parameter can add notes.
 AND!!! just like snapshot, each commit can be for version backward.
 # view modifies
 AND!!! so use the "git log" to see what each commit modify the file.
+input 'q' to quit the logs.
 # get repo status
 use "git status" to get the files' status.
 # get diff 
