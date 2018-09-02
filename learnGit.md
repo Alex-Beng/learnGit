@@ -12,6 +12,8 @@ input 'q' to quit the logs.
 # version rollback
 use the "git reset " to rollback the version.
 parameter "--hard <pointer>" to appoint the commit id(which can only write the former-four num) or HEAD^(can be written HEAD~<num>)
+# find commit id
+use the "git reflog" to get all the command history as well as each command's corresponding commit id.
 # get repo status
 use "git status" to get the files' status.
 # get diff 
