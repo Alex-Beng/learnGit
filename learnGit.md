@@ -24,3 +24,10 @@ use "git diff <filename>" to get the diffs with the former version.
 使用 "git push" 是将当前分支推送到远程库.
 第一次推送, "-u" 参数会将本地 master 分支与远程 master 分支关联, 并推送 master 分支的所有内容.
 之后本地 commit 之后, 只要 "git push origin master".
+# 创建分支
+使用 "git checkout <分支名>" 进行分支的创建,
+"-b"  参数表示创建并切换.
+# 切换分支
+使用 "git branch <分支名>" 切换.
+使用 "git branch" 查看当前分支.
+提交同上, 只不过是提交到了创建的分支上.
