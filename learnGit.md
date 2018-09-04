@@ -18,4 +18,9 @@ use the "git reflog" to get all the command history as well as each command's co
 use "git status" to get the files' status.
 # get diff 
 use "git diff <filename>" to get the diffs with the former version.
-
+# 关联远程库
+使用 "git remote add <远程库名> [仓库ssh/https 地址]" 将本地库与远程库关联
+# 推送到远程库
+使用 "git push" 是将当前分支推送到远程库.
+第一次推送, "-u" 参数会将本地 master 分支与远程 master 分支关联, 并推送 master 分支的所有内容.
+之后本地 commit 之后, 只要 "git push origin master".
