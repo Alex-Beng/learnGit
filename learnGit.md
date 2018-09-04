@@ -31,3 +31,4 @@ use "git diff <filename>" to get the diffs with the former version.
 使用 "git branch <分支名>" 切换.
 使用 "git branch" 查看当前分支.
 提交同上, 只不过是提交到了创建的分支上.
+# 合并分支 
