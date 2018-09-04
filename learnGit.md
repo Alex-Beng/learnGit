@@ -36,3 +36,4 @@ use "git diff <filename>" to get the diffs with the former version.
 先切换到 其他 分支
 使用 "git merge <分支名>" 将分支名对应分支合并到当前分支.
 然后可以删除被合并分支
+HHHHHHHH
