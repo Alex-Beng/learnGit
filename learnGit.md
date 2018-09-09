@@ -36,3 +36,10 @@ use "git diff <filename>" to get the diffs with the former version.
 先切换到 其他 分支
 使用 "git merge <分支名>" 将分支名对应分支合并到当前分支.
 然后可以删除被合并分支
+但是默认使用是 Fast Forward 模式, 在删除分支之后会丢失分支信息
+"--no-ff" 参数强制禁用 Fast Forward 模式, 并会提交一个新的 commit 以保留分支信息.
+# 冲突管理
+在不同分支进行修改后, 再进行合并可能会出现 conflict, 这时候需要手动修改再提交.
+# 储藏现场
+在 dev 进行开发的分支, 若要 fix bug, 需要保存当前进度, 修复后继续开发.
+使用 "git stash" "储藏"起来
